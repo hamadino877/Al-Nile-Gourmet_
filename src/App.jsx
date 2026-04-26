@@ -1349,7 +1349,7 @@ const [checkoutOpen,   setCheckoutOpen]   = useState(false);
 const [toast,          showToast]         = useToast();
 
 // FIX: تعديلات الأدمن محفوظة في localStorage
-const [adminItems,     setAdminItems]     = useState(() => loadFromStorage("nile_admin", INIT_ADMIN));
+const [adminItems,     setAdminItems]     = useState(() => loadFromStorage("nile_admin_v2", INIT_ADMIN));
 const [editingItem,    setEditingItem]    = useState(null);
 const [isAdmin,        setIsAdmin]        = useState(false);
 const [showAdminLogin, setShowAdminLogin] = useState(false);
@@ -1370,7 +1370,7 @@ useEffect(() => { saveToStorage("nile_cart", cart); }, [cart]);
 useEffect(() => { saveToStorage("nile_orders", orders); }, [orders]);
 
 // FIX: حفظ تعديلات الأدمن تلقائياً
-useEffect(() => { saveToStorage("nile_admin", adminItems); }, [adminItems]);
+useEffect(() => { saveToStorage("nile_admin_v2", adminItems); }, [adminItems]);
 
 // FIX: حفظ التقييمات تلقائياً
 useEffect(() => { saveToStorage("nile_reviews", reviews); }, [reviews]);
