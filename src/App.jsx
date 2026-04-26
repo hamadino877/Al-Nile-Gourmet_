@@ -51,7 +51,7 @@ return stored ? JSON.parse(stored) : fallback;
 } catch { return fallback; }
 }
 function saveToStorage(key, value) {
-try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { console.warn("Locale storage error:", e); }
 }
 
 // ─── IMAGES ──────────────────────────────────────────────────────────
