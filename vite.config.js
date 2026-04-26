@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages: change '/alnile-gourmet/' to match your repo name
-  base: '/alnile-gourmet/',
+  // GitHub Pages: change to match your repo name
+  base: '/Al-Nile-Gourmet_/',
 })
 
