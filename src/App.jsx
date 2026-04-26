@@ -144,12 +144,12 @@ const I = [
 ];
 
 const P = {
-beef:       [I[67], I[68], I[68], I[70], I[71], I[72], I[73], I[74], I[75], I[76], I[77], I[78], I[79], I[80], I[81], I[82], I[83], I[84]],
-naimi:      I.slice(32, 38),
-aus:        I.slice(32, 38),
-chicken:    I.slice(36, 47),
-grillReady: I.slice(32, 40),
-fryReady:   I.slice(32, 45),
+beef:       [I[67], I[68], I[69], I[70], I[71], I[72], I[73], I[74], I[75], I[76], I[77], I[78], I[79], I[80], I[81], I[82], I[83], I[84]],
+naimi:      [I[69], I[70], I[71], I[74], I[75]],
+aus:        [I[76], I[77], I[78], I[81], I[82]],
+chicken:    [I[80], I[83], I[84], I[67], I[68]],
+grillReady: [I[72], I[73], I[74], I[79], I[80]],
+fryReady:   [I[75], I[76], I[77], I[82], I[83]],
 soups:      [I[0],  I[1],  I[2]],
 salads:     [I[3],  I[4],  I[5],  I[6],  I[7]],
 hot:        [I[8],  I[9],  I[10], I[11]],
