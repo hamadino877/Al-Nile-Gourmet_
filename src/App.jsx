@@ -663,6 +663,9 @@ role="button" aria-label="اطلب عبر واتساب">
 <a className="plat-btn noon"      href={SOCIAL.noon}      target="_blank" rel="noreferrer">🟡 نون فود</a>
 </div>
 </div>
+<div style={{ padding: "0 15px 14px" }}>
+  <CateringCard />
+</div>
 <div className="sec-hd">
 <h2 className="sec-title">🔥 الأكثر طلباً</h2>
 <button className="see-all" onClick={() => go("menu")}>عرض الكل ›</button>
